@@ -5,7 +5,7 @@ import React from "react"
 
 function App() {
 
-  const { timeRemaining, startGame, handleChange, text, wordCount, isTimeRunning, textBoxRef } = useWordGame(3)
+  const { timeRemaining, startGame, handleChange, text, wordCount, isTimeRunning, textBoxRef } = useWordGame(5)
 
   return (
     <div className="App">
